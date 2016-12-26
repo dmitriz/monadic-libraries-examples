@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "name": "ramda-fantasy-test",
+  "main": "index.js",
+  "description": "Test project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmitriz"
+  },
+  "scripts": {
+    "start": "nr dev",
+    "test": "karma start",
+    "dev": "open http://localhost:8080/ && webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
+  "license": "MIT",
+  "dependencies": {
+    "karma": "^1.3.0",
+    "min-karma": "^2.5.1",
+    "min-karma-webpack": "^1.0.2",
+    "ramda-fantasy": "^0.7.0",
+    "webpack": "^1.14.0"
+  }
+}
