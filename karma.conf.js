@@ -25,7 +25,7 @@ module.exports = function (config) {
 
       // list files as entry points for webpack
       'demo/**/*-module_test.js': ['webpack'],
-      'examples/*_test.js': ['webpack']
+      '**/*_test.js': ['webpack']
     },
 
     // Browsers available include:
