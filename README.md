@@ -4,7 +4,11 @@ Usage examples with tests of various Monadic libraries
 ### Related projects
 - [Examples with Functional JavaScript, following Professor Frisby's course](https://github.com/dmitriz/functional-examples)
 
-### Monadic libraries Examples
+### Libaries used
+- [`ramda`](http://ramdajs.com/)
+- [`ramda-fantasy`](https://github.com/ramda/ramda-fantasy)
+
+### Usage examples
 All examples are in the `examples` folder
 
 ### Tests
