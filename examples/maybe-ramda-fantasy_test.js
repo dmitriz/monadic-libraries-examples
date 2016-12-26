@@ -112,5 +112,35 @@ describe('reduce', ()=>{
 			Just(2).reduce(acc => a => acc / a, 10)
 		).not.toBe(10 / 2)		
 	})
+})
 
+describe('equals', ()=>{
+	it('should return true for equal Just values', ()=>{
+		expect(
+			Just('10').equals(Just('10'))
+		).toBeTruthy()
+		expect(
+			Just('10').equals(Just(10))
+		).not.toBeTruthy()
+	})
+	it('should return true when comparing Nothings', ()=>{
+		expect(
+			Nothing().equals(Nothing())
+		).toBeTruthy()
+	})
+	it('should return false when comparing Just with Nothing or vice versa', ()=>{
+		expect(
+			Just(10).equals(Nothing())
+		).not.toBeTruthy()
+		expect(
+			Nothing().equals(Just('me'))
+		).not.toBeTruthy()
+	})
+})
+
+describe('toString', ()=>{
+	it('should return string representation of the whole object', ()=>{
+		expect( Just(100).toString() ).toBe('Maybe.Just(100)')
+		expect( Nothing().toString() ).toBe('Maybe.Nothing()')
+	})
 })
