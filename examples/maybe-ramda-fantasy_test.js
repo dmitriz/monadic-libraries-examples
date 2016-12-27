@@ -1,4 +1,4 @@
-const { any, none, curry } = require('ramda')
+const { any, none, curry, lift, add } = require('ramda')
 const { Maybe } = require('ramda-fantasy')
 
 const { Nothing, isNothing, Just, isJust, maybe, of } = Maybe
@@ -144,3 +144,12 @@ describe('toString', ()=>{
 		expect( Nothing().toString() ).toBe('Maybe.Nothing()')
 	})
 })
+
+describe('working with Ramda', ()=>{
+  it('R.lift works with other functors such as "Maybe"', ()=>{
+    expect(
+    	lift(add)(Maybe.of(3), Maybe.of(5)).equals(Maybe.of(8)) 
+    ).toBeTruthy()
+  })
+})
+
