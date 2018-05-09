@@ -5,7 +5,7 @@ var NpmInstallPlugin = require('npm-install-webpack-plugin')
 
 module.exports = {
   // Load `demo/index.js`
-  // entry: './demo',
+  entry: './demo',
 
   // Generate `demo/bundle.js`
   output: {
