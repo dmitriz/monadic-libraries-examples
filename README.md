@@ -12,11 +12,15 @@ Usage examples with tests of various Monadic libraries
 All examples are in the `examples` folder
 
 ### Tests
-All test files have `_test.js` in their names and are placed next to the relevant example files for better cohesion.
-There is no "test" folder
+All test files have `_test.js` in their names and are placed next to the relevant example files for better cohesion. (There is no "test" folder.)
 
 ### Runing tests
-Simply run any of those: `yarn test`, `npm test`, `karma start`
+Simply run any of those: 
+```sh
+npm test 
+karma start
+yarn test
+```
 
 ### Testing tools used
 Karma with Jasmine and Webpack.
