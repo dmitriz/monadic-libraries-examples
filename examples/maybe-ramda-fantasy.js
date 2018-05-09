@@ -54,5 +54,3 @@ show
 ,	'|' +	lookup('a', {a: ''})
 		.getOrElse('No value!') + '|'
 )
-
-

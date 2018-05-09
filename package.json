@@ -1,14 +1,14 @@
 {
   "version": "0.1.0",
-  "name": "ramda-fantasy-test",
+  "name": "monadic-libraries-examples",
   "main": "index.js",
-  "description": "Test project",
+  "description": "Usage examples with tests of various Monadic libraries",
   "repository": {
     "type": "git",
     "url": "https://github.com/dmitriz"
   },
   "scripts": {
-    "start": "nr dev",
+    "start": "npm run dev",
     "test": "karma start",
     "dev": "open http://localhost:8080/ && webpack-dev-server"
   },
