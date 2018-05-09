@@ -4,7 +4,7 @@ const { Maybe } = require('ramda-fantasy')
 const { Nothing, isNothing, Just, isJust, maybe, of } = Maybe
 
 
-// safe division 
+// safe number division
 const safeDiv = (n, d) =>  d === 0
 	? Nothing() 
 	: Just(n / d)
@@ -45,8 +45,8 @@ describe('map', ()=>{
 		expect( safeDiv(1, 2).map(x => x-1).getOrElse() ).toBe(-0.5)
 	})
 	it('should return nothing when trying to apply map to invalid values', ()=>{
-		expect( safeDiv(22, 0).map(x => x-1).getOrElse('?')).toBe('?')
-		expect( safeLookup('aa', {}).map(x => x-1).getOrElse('?')).toBe('?')
+		expect( safeDiv(22, 0).map(x => x-1).getOrElse('?') ).toBe('?')
+		expect( safeLookup('aa', {}).map(x => x-1).getOrElse('?') ).toBe('?')
 	})
 })
 
