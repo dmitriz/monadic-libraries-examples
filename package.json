@@ -10,7 +10,7 @@
   "scripts": {
     "start": "npm run dev",
     "test": "karma start",
-    "dev": "open http://localhost:8080/ && webpack-dev-server"
+    "dev": "open http://localhost:8080/"
   },
   "keywords": [],
   "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
