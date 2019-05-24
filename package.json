@@ -22,7 +22,7 @@
     "karma": "^4.0.0",
     "min-karma": "^2.5.1",
     "min-karma-webpack": "^1.0.2",
-    "ramda": "^0.25.0",
+    "ramda": "^0.26.0",
     "ramda-fantasy": "^0.8.0",
     "sanctuary": "^2.0.0",
     "webpack": "^1.14.0"
