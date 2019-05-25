@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/bin/node /Users/dmitrizaitsev/.npm-global/bin/yarn
+
+PATH: 
+  /usr/local/sbin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/Users/dmitrizaitsev/.npm-global/bin:./node_modules/.bin:/Users/dmitrizaitsev/.npm-global/bin:./node_modules/.bin:/usr/local/sbin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/Users/dmitrizaitsev/.npm-global/bin:./node_modules/.bin:/Users/dmitrizaitsev/.npm-global/bin:./node_modules/.bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin:/usr/texbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/dmitrizaitsev/.yarn/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/dmitrizaitsev/.yarn/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/dmitrizaitsev/Repos/monadic-libraries-examples/package.json: Unexpected token } in JSON at position 712
+      at JSON.parse (<anonymous>)
+      at /Users/dmitrizaitsev/.npm-global/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/dmitrizaitsev/.npm-global/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /Users/dmitrizaitsev/.npm-global/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "version": "0.1.0",
+    "name": "monadic-libraries-examples",
+    "main": "index.js",
+    "description": "Usage examples with tests of various Monadic libraries",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dmitriz"
+    },
+    "scripts": {
+      "start": "npm run dev",
+      "test": "karma start",
+      "dev": "open http://localhost:8080/"
+    },
+    "keywords": [],
+    "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
+    "license": "MIT",
+    "dependencies": {
+      "data.maybe": "^1.2.2",
+      "data.task": "^3.1.1",
+      "futurize": "^1.0.2",
+      "karma": "^4.0.0",
+      "min-karma": "^2.5.1",
+      "ramda": "^0.26.0",
+      "ramda-fantasy": "^0.8.0",
+      "sanctuary": "^2.0.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
