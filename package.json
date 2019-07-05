@@ -10,7 +10,9 @@
   "scripts": {
     "start": "npm run dev",
     "test": "karma start",
-    "dev": "open http://localhost:8080/"
+    "dev": "open http://localhost:8080/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
@@ -23,6 +25,8 @@
     "min-karma": "^3.0.0",
     "ramda": "^0.26.0",
     "ramda-fantasy": "^0.8.0",
-    "sanctuary": "^2.0.0"
-  }
+    "sanctuary": "^2.0.0",
+    "snyk": "^1.192.0"
+  },
+  "snyk": true
 }
