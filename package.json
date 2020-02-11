@@ -26,7 +26,7 @@
     "ramda": "^0.27.0",
     "ramda-fantasy": "^0.8.0",
     "sanctuary": "^2.0.0",
-    "snyk": "^1.290.2"
+    "snyk": "^1.291.0"
   },
   "snyk": true
 }
