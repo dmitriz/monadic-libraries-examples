@@ -1,6 +1,6 @@
 # monadic-libraries-examples
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/dmitriz/monadic-libraries-examples.svg)](https://greenkeeper.io/)
+
 
 Usage examples with tests of various Monadic libraries
 
