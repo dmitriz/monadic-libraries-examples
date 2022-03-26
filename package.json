@@ -11,7 +11,7 @@
     "start": "npm run dev",
     "test": "karma start",
     "dev": "open http://localhost:8080/",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepublish": "yarn run snyk-protect"
   },
   "keywords": [],
@@ -26,7 +26,7 @@
     "ramda": "^0.27.2",
     "ramda-fantasy": "^0.8.0",
     "sanctuary": "^2.0.0",
-    "snyk": "^1.425.4"
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
