@@ -23,7 +23,7 @@
     "futurize": "^1.0.2",
     "karma": "^5.2.3",
     "min-karma": "^3.0.0",
-    "ramda": "^0.27.2",
+    "ramda": "^0.28.0",
     "ramda-fantasy": "^0.8.0",
     "sanctuary": "^2.0.0",
     "snyk": "^1.425.4"
